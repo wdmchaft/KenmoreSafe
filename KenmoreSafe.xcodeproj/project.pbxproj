@@ -54,7 +54,7 @@
 		1C49F8D31461E62500867559 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C49F8D51461E62500867559 /* KenmoreSafeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KenmoreSafeTests.h; sourceTree = "<group>"; };
 		1C49F8D61461E62500867559 /* KenmoreSafeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KenmoreSafeTests.m; sourceTree = "<group>"; };
-		1CE452AB1461E78900F15C8B /* README */ = {isa = PBXFileReference; name = README; path = KenmoreSafeTests/README; sourceTree = SOURCE_ROOT; };
+		1CE452AB1461E78900F15C8B /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = KenmoreSafeTests/README; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
