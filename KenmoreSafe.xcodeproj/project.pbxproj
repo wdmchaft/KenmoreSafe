@@ -38,22 +38,23 @@
 		1C49F8A81461E62500867559 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1C49F8AA1461E62500867559 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1C49F8AC1461E62500867559 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1C49F8B01461E62500867559 /* KenmoreSafe-Info.plist */ = {isa = PBXFileReference; path = "KenmoreSafe-Info.plist"; sourceTree = "<group>"; };
+		1C49F8B01461E62500867559 /* KenmoreSafe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KenmoreSafe-Info.plist"; sourceTree = "<group>"; };
 		1C49F8B21461E62500867559 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C49F8B41461E62500867559 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1C49F8B61461E62500867559 /* KenmoreSafe-Prefix.pch */ = {isa = PBXFileReference; path = "KenmoreSafe-Prefix.pch"; sourceTree = "<group>"; };
-		1C49F8B71461E62500867559 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C49F8B61461E62500867559 /* KenmoreSafe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KenmoreSafe-Prefix.pch"; sourceTree = "<group>"; };
+		1C49F8B71461E62500867559 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C49F8B81461E62500867559 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1C49F8BA1461E62500867559 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1C49F8BA1461E62500867559 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1C49F8BB1461E62500867559 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1C49F8BE1461E62500867559 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		1C49F8C11461E62500867559 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		1C49F8C81461E62500867559 /* KenmoreSafeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KenmoreSafeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C49F8C91461E62500867559 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1C49F8D11461E62500867559 /* KenmoreSafeTests-Info.plist */ = {isa = PBXFileReference; path = "KenmoreSafeTests-Info.plist"; sourceTree = "<group>"; };
+		1C49F8D11461E62500867559 /* KenmoreSafeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KenmoreSafeTests-Info.plist"; sourceTree = "<group>"; };
 		1C49F8D31461E62500867559 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1C49F8D51461E62500867559 /* KenmoreSafeTests.h */ = {isa = PBXFileReference; path = KenmoreSafeTests.h; sourceTree = "<group>"; };
+		1C49F8D51461E62500867559 /* KenmoreSafeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KenmoreSafeTests.h; sourceTree = "<group>"; };
 		1C49F8D61461E62500867559 /* KenmoreSafeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KenmoreSafeTests.m; sourceTree = "<group>"; };
+		1CE452AB1461E78900F15C8B /* README */ = {isa = PBXFileReference; name = README; path = KenmoreSafeTests/README; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +128,7 @@
 		1C49F8AF1461E62500867559 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1CE452AB1461E78900F15C8B /* README */,
 				1C49F8B01461E62500867559 /* KenmoreSafe-Info.plist */,
 				1C49F8B11461E62500867559 /* InfoPlist.strings */,
 				1C49F8B41461E62500867559 /* main.m */,
@@ -443,6 +445,7 @@
 				1C49F8DC1461E62500867559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C49F8DD1461E62500867559 /* Build configuration list for PBXNativeTarget "KenmoreSafeTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +454,7 @@
 				1C49F8DF1461E62500867559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
